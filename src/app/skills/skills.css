@@ -1,0 +1,120 @@
+#skills {
+    background: linear-gradient(135deg, #2563eb, #60a5fa);
+  }
+  
+  .skills-section {
+    padding: 4rem 2rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .skills-title {
+    color: #60a5fa;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .skill-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 2rem;
+    flex: 1 1 calc(33.333% - 1rem);
+    min-width: 250px;
+    transition: transform 0.3s;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-icon {
+    width: 2rem;
+    height: 2rem;
+    background: #0e41af;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+  
+  .skill-name {
+    font-size: 1.25rem;
+    color: white;
+  }
+  
+  .skill-progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background: rgba(5, 60, 80, 0.3);
+    border-radius: 6px;
+    height: 0.5rem;
+    position: relative;
+  }
+  
+  .html-progress {
+    width: 100%;
+    background: linear-gradient(to right, #2563eb, #0e61c7);
+  }
+  
+  .css-progress {
+    width: 95%;
+    background: linear-gradient(to right, #2563eb, #0e61c7);
+  }
+  
+  .ts-js-progress {
+    width: 90%;
+    background: linear-gradient(to right, #2563eb, #0e61c7);
+  }
+  
+  .nextjs-progress {
+    width: 70%;
+    background: linear-gradient(to right, #2563eb, #0e61c7);
+  }
+  
+  .wordpress-progress {
+    width: 75%;
+    background: linear-gradient(to right, #2563eb, #0e61c7);
+  }
+  
+  .react-progress {
+    width: 80%;
+    background: linear-gradient(to right, #2563eb, #0e61c7);
+  }
+  
+  .progress-percentage {
+    font-weight: bold;
+    color: white;
+    margin-left: 0.5rem;
+  }
+  
